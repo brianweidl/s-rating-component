@@ -1,0 +1,81 @@
+.container {
+	color: var(--white);
+	background-color: var(--dark-blue);
+	width: 300px;
+	height: 300px;
+	border-radius: 10%;
+	padding: 2em;
+}
+.front {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+
+.topStar {
+	width: 35px;
+	height: 35px;
+	background: var(--dark-grey);
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.topStar__starIcon {
+	width: 35%;
+	height: 35%;
+}
+
+.titleText {
+	font-size: 1.7rem;
+	margin-bottom: -5px;
+	margin-top: 8px;
+}
+
+.container p {
+	color: var(--medium-grey);
+	line-height: 1.5em;
+}
+.ratingContainer {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.ratingContainer span {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: var(--dark-grey);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 0.1em;
+	color: var(--medium-grey);
+	transition: 0.3s;
+}
+
+.ratingContainer span:hover {
+	color: var(--white);
+	background-color: var(--orange);
+	cursor: pointer;
+}
+
+.submitButton {
+	margin-top: 15px;
+	background-color: var(--orange);
+	color: white;
+	border-radius: 12px;
+	padding: 10px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	transition: 0.2s;
+}
+.submitButton:hover {
+	color: var(--orange);
+	background-color: var(--white);
+	font-weight: 600;
+	cursor: pointer;
+}
