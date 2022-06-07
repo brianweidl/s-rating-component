@@ -6,7 +6,7 @@
 	border-radius: 10%;
 	padding: 2em;
 	perspective: 800px;
-	transition: transform 1s ease-in-out;
+	transition: transform 0.9s ease-in-out;
 	transform-style: preserve-3d;
 }
 
